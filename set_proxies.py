@@ -1,5 +1,5 @@
 # set_proxies.py
-# https://github.com/jjaacckk
+# https://github.com/jjaacckk/NordVPN-SOCKS5-Python-Proxy
 # 2021-03-25
 
 from os import getenv, environ
