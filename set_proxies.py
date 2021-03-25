@@ -38,7 +38,8 @@ host = hosts[0]
 # NordVPN's SOCKS5 port
 port = "1080"
 
-# create a .env file with your NordVPN username (NORD_USERNAME) and password (NORD_PASSWORD)
+# create a .env file with your NordVPN service credentials *NOT* your regular username/password
+# go to https://my.nordaccount.com/dashboard/nordvpn/ and scroll to bottom for service credentials
 nord_username = getenv("NORD_USERNAME")
 nord_password = getenv("NORD_PASSWORD")
 
