@@ -18,7 +18,7 @@ def getIP() -> str:
 # loads variables from the .env file containing the NordVPN credentials into the environment
 load_dotenv()
 
-# list of NordVPN's SOCK5 hosts
+# list of NordVPN's SOCKS5 hosts
 hosts = [
     "amsterdam.nl.socks.nordhold.net",
     "atlanta.us.socks.nordhold.net",
@@ -33,9 +33,9 @@ hosts = [
 ]
 
 # choose host from 'hosts' list above
-host = hosts[0]  # sock5 Los Angeles
+host = hosts[0]
 
-# NordVPN's SOCK5 port
+# NordVPN's SOCKS5 port
 port = "1080"
 
 # create a .env file with your NordVPN username (NORD_USERNAME) and password (NORD_PASSWORD)
